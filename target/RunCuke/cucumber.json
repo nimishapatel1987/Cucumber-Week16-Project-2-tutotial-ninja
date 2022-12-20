@@ -1,0 +1,143 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "verify Products Price Display HighToLow Successfully",
+        "description": "",
+        "id": "laptop-and-notebooks-test;verify-products-price-display-hightolow-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I am on Homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I mouseHover On Laptops And Desktop Tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I click On Show All Laptops And Notebooks",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I sort By Price HighToLow",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I Verify Sort By HighToLow Order",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Laptop And Notebooks Test",
+    "description": "as a user I want to check LaptopAndNotebooks Tab",
+    "id": "laptop-and-notebooks-test",
+    "keyword": "Feature",
+    "uri": "laptopandnotebooks.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Verify User Should Navigate To Register Page Successfully",
+        "description": "",
+        "id": "my-account-test;verify-user-should-navigate-to-register-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I am on Homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click On MyAccount Link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I select My Account Options \"Register\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I verify Register Account Message",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@smoke"
+          },
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "My Account Test",
+    "description": "as a user I want to check My Account",
+    "id": "my-account-test",
+    "keyword": "Feature",
+    "uri": "myaccount.feature"
+  }
+]
